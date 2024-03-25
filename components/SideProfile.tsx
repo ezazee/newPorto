@@ -12,7 +12,8 @@ const SideProfile = () => {
               href="index.html"
             >
               <Image
-                src="/img/user-sidebar-thumb.png"
+                loading='lazy'
+                src="/img/hero.png"
                 width={150}
                 height={150}
                 className="hidden dark:block w-full h-full rounded-full"
@@ -22,14 +23,14 @@ const SideProfile = () => {
               <Image
                 width={150}
                 height={150}
-                src="/img/user-sidebar-thumb-light.png"
+                src="/img/hero.png"
                 className="dark:hidden w-full h-full rounded-full"
                 alt="Brown Reddick"
               />{" "}
               {/*Image for Light Version */}
             </a>
             <h6 className="mb-1 text-lg font-semibold text-black dark:text-white name">
-              Brown Reddick
+              Mohamad Reza Reziyanto
             </h6>
             <div className="leading-none cd-headline clip is-full-width">
               <h6 className="text-sm cd-words-wrapper designation text-theme after:!bg-theme">
@@ -43,21 +44,21 @@ const SideProfile = () => {
             <ul className="space-y-3">
               <li className="flex text-sm">
                 <span className="flex-1 font-medium text-black dark:text-white">
-                  Residence:
+                  Email:
                 </span>
-                <span>Canada</span>
+                <span>yukiirima123@gmail.com</span>
               </li>
               <li className="flex text-sm">
                 <span className="flex-1 font-medium text-black dark:text-white">
-                  City:
+                  Github:
                 </span>
-                <span>Toronto</span>
+                <span>Ezazee</span>
               </li>
               <li className="flex text-sm">
                 <span className="flex-1 font-medium text-black dark:text-white">
-                  Age:
+                  Instagram:
                 </span>
-                <span>26</span>
+                <span>mrzsaa</span>
               </li>
             </ul>
           </div>

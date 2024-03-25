@@ -1,6 +1,8 @@
 "use client"
+import { faCheckDouble, faHome, faPaperPlane } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Image from "next/image";
 import React from "react";
-import  Autoplay from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.css";
 
@@ -15,7 +17,7 @@ const Hero = () => {
       >
         <div className="px-5 py-8 bg-white dark:bg-nightBlack rounded-2xl hero-section md:p-8 lg:p-10 2xl:p-13">
           <div className="inline-flex items-center gap-2 px-4 py-2 text-xs tracking-wide text-black dark:text-white border lg:px-5 section-name border-platinum dark:border-greyBlack200 rounded-4xl">
-            <i className="fal fa-home text-theme" />
+            <FontAwesomeIcon icon={faHome} className="text-theme" />
             INTRODUCE
           </div>
           <div className="items-center gap-6 hero-content md:flex xl:gap-10">
@@ -34,11 +36,17 @@ const Hero = () => {
               </p>
               <ul className="flex items-center mt-4 -mx-3 lg:mt-5">
                 <li className="flex items-center mx-3 text-regular">
-                  <i className="mr-2 fal fa-check-double text-theme" />
+                  <FontAwesomeIcon
+                    icon={faCheckDouble}
+                    className="mr-2 text-theme"
+                  />
                   Available for work
                 </li>
                 <li className="flex items-center mx-3 text-regular">
-                  <i className="mr-2 fal fa-check-double text-theme" />
+                  <FontAwesomeIcon
+                    icon={faCheckDouble}
+                    className="mr-2 text-theme"
+                  />
                   Full Time Job
                 </li>
               </ul>
@@ -48,7 +56,7 @@ const Hero = () => {
                     href="#contact"
                     className="btn-theme inline-flex items-center gap-2 bg-theme text-power__black py-4 md:py-4.5 lg:px-9 px-7 rounded-4xl leading-none transition-all duration-300 hover:shadow-theme_shadow text-white font-medium text-[15px] md:text-base"
                   >
-                    <i className="fal fa-paper-plane" />
+                    <FontAwesomeIcon icon={faPaperPlane} />
                     HIRE ME
                   </a>
                 </li>
@@ -56,12 +64,12 @@ const Hero = () => {
             </div>
             <div className="hero-image flex-[0_0_20.3rem] max-md:hidden">
               <img
-                src="/img/hero-img-1.png"
+                src="/img/hero.png"
                 className="dark:hidden"
                 alt="Hero Image - Light Mode"
               />
               <img
-                src="/img/hero-img-2.png"
+                src="/img/hero.png"
                 className="hidden dark:block"
                 alt="Hero Image - Dark Mode"
               />
@@ -71,63 +79,78 @@ const Hero = () => {
             <div className="items-center grid-cols-12 overflow-hidden md:grid">
               <div className="hidden col-span-2 md:inline-block">
                 <h6 className="font-medium text-black dark:text-white/80 text-sm md:max-w-[8rem] border-l border-theme pl-4">
-                  Trusted companies
+                  Experience Company
                 </h6>
               </div>
               <div className="col-span-10 logo-slider">
                 <Swiper
-                  slidesPerView={4} // Adjust the number of slides per view
-                  spaceBetween={20} // Adjust the space between slides
+                  slidesPerView={4}
+                  spaceBetween={20}
                   autoplay={{
                     delay: 5000,
                     pauseOnMouseEnter: true,
                     disableOnInteraction: false,
                   }}
-                  loop={true} // Enable loop
+                  loop={true}
                 >
                   <SwiperSlide>
                     <a href="#" className="transition duration-200 flex-center">
-                      <img src="/img/partners/logo1.svg" alt="Partner Name" />
+                      <Image
+                        width={50}
+                        height={50}
+                        src="/img/partners/1.png"
+                        alt="Partner Name"
+                      />
                     </a>
                   </SwiperSlide>
                   <SwiperSlide>
                     <a href="#" className="transition duration-200 flex-center">
-                      <img src="/img/partners/logo2.svg" alt="Partner Name" />
+                      <Image
+                        width={50}
+                        height={50}
+                        src="/img/partners/2.png"
+                        alt="Partner Name"
+                      />
                     </a>
                   </SwiperSlide>
                   <SwiperSlide>
                     <a href="#" className="transition duration-200 flex-center">
-                      <img src="/img/partners/logo2.svg" alt="Partner Name" />
+                      <Image
+                        width={70}
+                        height={70}
+                        src="/img/partners/3.png"
+                        alt="Partner Name"
+                      />
                     </a>
                   </SwiperSlide>
                   <SwiperSlide>
                     <a href="#" className="transition duration-200 flex-center">
-                      <img src="/img/partners/logo2.svg" alt="Partner Name" />
+                      <Image
+                        width={150}
+                        height={150}
+                        src="/img/partners/4.png"
+                        alt="Partner Name"
+                      />
                     </a>
                   </SwiperSlide>
                   <SwiperSlide>
                     <a href="#" className="transition duration-200 flex-center">
-                      <img src="/img/partners/logo2.svg" alt="Partner Name" />
+                      <Image
+                        width={150}
+                        height={150}
+                        src="/img/partners/5.png"
+                        alt="Partner Name"
+                      />
                     </a>
                   </SwiperSlide>
                   <SwiperSlide>
                     <a href="#" className="transition duration-200 flex-center">
-                      <img src="/img/partners/logo2.svg" alt="Partner Name" />
-                    </a>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <a href="#" className="transition duration-200 flex-center">
-                      <img src="/img/partners/logo2.svg" alt="Partner Name" />
-                    </a>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <a href="#" className="transition duration-200 flex-center">
-                      <img src="/img/partners/logo2.svg" alt="Partner Name" />
-                    </a>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <a href="#" className="transition duration-200 flex-center">
-                      <img src="/img/partners/logo2.svg" alt="Partner Name" />
+                      <Image
+                        width={140}
+                        height={140}
+                        src="/img/partners/6.png"
+                        alt="Partner Name"
+                      />
                     </a>
                   </SwiperSlide>
 

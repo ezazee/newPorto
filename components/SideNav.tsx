@@ -39,12 +39,7 @@ const SideNav = () => {
         {/* Site Logo Start */}
         <div className="flex border rounded-full logo w-15 h-15 border-platinum dark:border-metalBlack flex-center">
           <a href="index.html">
-            <Image
-              width={50}
-              height={50}
-              src="/img/site-logo.svg"
-              alt="Minfo"
-            />
+            <h1 className='text-2xl text-theme'>R</h1>
           </a>
         </div>
         {/* Site Logo Start */}
