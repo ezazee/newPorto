@@ -5,6 +5,8 @@ import Image from "next/image";
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.css";
+import { Autoplay } from "swiper/modules";
+
 
 
 const Hero = () => {
@@ -63,12 +65,16 @@ const Hero = () => {
               </ul>
             </div>
             <div className="hero-image flex-[0_0_20.3rem] max-md:hidden">
-              <img
+              <Image
+                width={400}
+                height={400}
                 src="/img/hero.png"
                 className="dark:hidden"
                 alt="Hero Image - Light Mode"
               />
-              <img
+              <Image
+                width={400}
+                height={400}
                 src="/img/hero.png"
                 className="hidden dark:block"
                 alt="Hero Image - Dark Mode"
@@ -87,10 +93,10 @@ const Hero = () => {
                   slidesPerView={4}
                   spaceBetween={20}
                   autoplay={{
-                    delay: 5000,
-                    pauseOnMouseEnter: true,
+                    delay: 1000,
                     disableOnInteraction: false,
                   }}
+                  modules={[Autoplay]}
                   loop={true}
                 >
                   <SwiperSlide>

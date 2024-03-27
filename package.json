@@ -16,7 +16,9 @@
     "@fortawesome/react-fontawesome": "^0.2.0",
     "next": "14.1.4",
     "react": "^18",
+    "react-circular-progressbar": "^2.1.0",
     "react-dom": "^18",
+    "react-jquery-plugin": "^1.1.7",
     "swiper": "^11.0.7"
   },
   "devDependencies": {
