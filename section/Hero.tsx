@@ -17,20 +17,20 @@ const Hero = () => {
         id="home"
         className="py-5 xl:py-3.5 max-w-content xl:max-2xl:max-w-50rem max-xl:mx-auto xl:ml-auto"
       >
-        <div className="px-5 py-8 bg-white dark:bg-nightBlack rounded-2xl hero-section md:p-8 lg:p-10 2xl:p-13">
-          <div className="inline-flex items-center gap-2 px-4 py-2 text-xs tracking-wide text-black dark:text-white border lg:px-5 section-name border-platinum dark:border-greyBlack200 rounded-4xl">
+        <div className="px-5 py-8 bg-white bg-nightBlack rounded-2xl hero-section md:p-8 lg:p-10 2xl:p-13">
+          <div className="inline-flex items-center gap-2 px-4 py-2 text-xs tracking-wide text-black border lg:px-5 section-name border-platinum border-greyBlack200 rounded-4xl">
             <FontAwesomeIcon icon={faHome} className="text-theme" />
             INTRODUCE
           </div>
           <div className="items-center gap-6 hero-content md:flex xl:gap-10">
             <div className="text-content pt-7 lg:pt-8 max-lg:max-w-[30rem]">
-              <h1 className="text-[32px] lg:text-5xl xl:text-4xl 2xl:text-5xl font-semibold text-black dark:text-white leading-1.27 lg:leading-1.27 xl:leading-1.27 2xl:leading-1.27 mb-4 lg:mb-5">
+              <h1 className="text-[32px] lg:text-5xl xl:text-4xl 2xl:text-5xl font-semibold text-black leading-1.27 lg:leading-1.27 xl:leading-1.27 2xl:leading-1.27 mb-4 lg:mb-5">
                 I Craft The <br />
                 <span className="text-theme">Digital Landscape</span>
               </h1>
               <p>
                 I am a{" "}
-                <span className="font-medium text-black dark:text-white/90">
+                <span className="font-medium text-black text-white/90">
                   Frontend Developer
                 </span>{" "}
                 at heart and, i create features that are best suited for the job
@@ -69,14 +69,14 @@ const Hero = () => {
                 width={400}
                 height={400}
                 src="/img/hero.png"
-                className="dark:hidden"
+                className="hidden"
                 alt="Hero Image - Light Mode"
               />
               <Image
                 width={400}
                 height={400}
                 src="/img/hero.png"
-                className="hidden dark:block"
+                className="block"
                 alt="Hero Image - Dark Mode"
               />
             </div>
@@ -84,7 +84,7 @@ const Hero = () => {
           <div className="mb-2 mt-14 xl:mb-0 xl:mt-20">
             <div className="items-center grid-cols-12 overflow-hidden md:grid">
               <div className="hidden col-span-2 md:inline-block">
-                <h6 className="font-medium text-black dark:text-white/80 text-sm md:max-w-[8rem] border-l border-theme pl-4">
+                <h6 className="font-medium text-black text-white/80 text-sm md:max-w-[8rem] border-l border-theme pl-4">
                   Experience Company
                 </h6>
               </div>

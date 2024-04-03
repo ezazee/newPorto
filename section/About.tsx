@@ -9,18 +9,18 @@ const About = () => {
       id="about"
       className="py-3.5  max-w-content xl:max-2xl:max-w-50rem max-xl:mx-auto xl:ml-auto"
     >
-      <div className="px-5 py-8 md:p-8 bg-white dark:bg-nightBlack rounded-2xl about-section lg:p-10 2xl:p-13">
-        <div className="inline-flex items-center gap-2 px-4 py-2 text-xs tracking-wide text-black dark:text-white border lg:px-5 section-name border-platinum dark:border-greyBlack200 rounded-4xl">
+      <div className="px-5 py-8 md:p-8 bg-white  rounded-2xl about-section lg:p-10 2xl:p-13">
+        <div className="inline-flex items-center gap-2 px-4 py-2 text-xs tracking-wide text-black  border lg:px-5 section-name border-platinum  rounded-4xl">
           <FontAwesomeIcon icon={faUser} className="text-theme" />
           ABOUT ME
         </div>
         <div className="mt-7 md:mt-10 section-title">
-          <h2 className="title text-[32px] md:text-4xl lg:text-5xl font-extralight text-black dark:text-white leading-1.27">
+          <h2 className="title text-[32px] md:text-4xl lg:text-5xl font-extralight text-black  leading-1.27">
             About <span className="font-semibold text-theme">Me</span>
           </h2>
           <p className="max-w-2xl mt-4 md:mt-6 subtitle">
-            Hi, my name is
-            <span className="text-black dark:text-white">
+            Hi, my name is{" "}
+            <span className="text-black ">
               Mohamad Reza Reziyanto
             </span>. I started to know about IT since I was in Vocational High
             School, when I first joined an organization called NINE STUDIO ...
