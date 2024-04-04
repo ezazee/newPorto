@@ -50,7 +50,6 @@ const Skills = () => {
                           width={50}
                           height={50}
                           src="/img/skill/figma.svg"
-                          className="dark:grayscale"
                           alt="Figma"
                         />
                       </div>
@@ -66,7 +65,6 @@ const Skills = () => {
                           width={50}
                           height={50}
                           src="/img/skill/html.svg"
-                          className="dark:grayscale"
                           alt="HTML"
                         />
                       </div>
@@ -82,7 +80,6 @@ const Skills = () => {
                           width={50}
                           height={50}
                           src="/img/skill/css.svg"
-                          className="dark:grayscale"
                           alt="CSS"
                         />
                       </div>
@@ -96,7 +93,6 @@ const Skills = () => {
                           width={50}
                           height={50}
                           src="/img/skill/js.svg"
-                          className="dark:grayscale"
                           alt="JS"
                         />
                       </div>
@@ -110,7 +106,6 @@ const Skills = () => {
                           width={50}
                           height={50}
                           src="/img/skill/tailwind.svg"
-                          className="dark:grayscale"
                           alt="Tailwind"
                         />
                       </div>
@@ -126,7 +121,6 @@ const Skills = () => {
                           width={50}
                           height={50}
                           src="/img/skill/react.svg"
-                          className="dark:grayscale"
                           alt="React"
                         />
                       </div>
@@ -142,7 +136,6 @@ const Skills = () => {
                           width={50}
                           height={50}
                           src="/img/skill/adobePS.svg"
-                          className="dark:grayscale"
                           alt="Adobe PS"
                         />
                       </div>
@@ -158,7 +151,6 @@ const Skills = () => {
                           width={50}
                           height={50}
                           src="/img/skill/cdr.svg"
-                          className="dark:grayscale"
                           alt="CorelDraw"
                         />
                       </div>
@@ -174,7 +166,6 @@ const Skills = () => {
                           width={50}
                           height={50}
                           src="/img/skill/Laravel.svg"
-                          className="dark:grayscale"
                           alt="Laravel"
                         />
                       </div>
