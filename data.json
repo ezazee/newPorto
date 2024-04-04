@@ -1,0 +1,34 @@
+{
+    "designProjects": [
+        {
+            "id": 1,
+            "title": "Project Design 1",
+            "description": "Deskripsi untuk Project Design 1",
+            "image": "/img/design/1.webp",
+            "embedCode": "<iframe src='https://www.example.com' width='600' height='400'></iframe>"
+        },
+        {
+            "id": 2,
+            "title": "Project Design 2",
+            "description": "Deskripsi untuk Project Design 2",
+            "image": "/img/design/1.webp",
+            "embedCode": "<iframe src='https://www.example.com' width='600' height='400'></iframe>"
+        }
+    ],
+    "codeProjects": [
+        {
+            "id": 3,
+            "title": "Project Code 1",
+            "description": "Deskripsi untuk Project Code 1",
+            "image": "/images/code1.jpg",
+            "link": "https://github.com/example/project1"
+        },
+        {
+            "id": 4,
+            "title": "Project Code 2",
+            "description": "Deskripsi untuk Project Code 2",
+            "image": "/images/code2.jpg",
+            "link": "https://github.com/example/project2"
+        }
+    ]
+}
