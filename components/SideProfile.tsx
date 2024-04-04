@@ -12,7 +12,7 @@ const SideProfile = () => {
               href="index.html"
             >
               <Image
-                loading='lazy'
+                loading="lazy"
                 src="/img/hero.png"
                 width={150}
                 height={150}
@@ -29,13 +29,11 @@ const SideProfile = () => {
               />{" "}
               {/*Image for Light Version */}
             </a>
-            <h6 className="mb-1 text-lg font-semibold text-black dark:text-white name">
+            <h6 className="mb-1 text-lg font-semibold text-black name">
               Mohamad Reza Reziyanto
             </h6>
             <div className="leading-none cd-headline clip is-full-width">
               <h6 className="text-sm cd-words-wrapper designation text-theme after:!bg-theme">
-                <b className="font-normal is-visible">Web Developer</b>
-                <b className="font-normal">Photographers</b>
                 <b className="font-normal">Web Designer</b>
               </h6>
             </div>
@@ -43,19 +41,15 @@ const SideProfile = () => {
           <div className="pt-6 mx-4 border-t lg:mx-6 user-meta-info md:mx-7 my-7 border-platinum dark:border-metalBlack">
             <ul className="space-y-3">
               <li className="flex text-sm">
-                <span className="flex-1 font-medium text-black dark:text-white">
-                  Email:
-                </span>
+                <span className="flex-1 font-medium text-black ">Email:</span>
                 <span>yukiirima123@gmail.com</span>
               </li>
               <li className="flex text-sm">
-                <span className="flex-1 font-medium text-black dark:text-white">
-                  Github:
-                </span>
+                <span className="flex-1 font-medium text-black ">Github:</span>
                 <span>Ezazee</span>
               </li>
               <li className="flex text-sm">
-                <span className="flex-1 font-medium text-black dark:text-white">
+                <span className="flex-1 font-medium text-black ">
                   Instagram:
                 </span>
                 <span>mrzsaa</span>
@@ -63,9 +57,7 @@ const SideProfile = () => {
             </ul>
           </div>
           <div className="px-4 py-5 lg:py-6 lg:px-6 rounded-2xl md:px-8 bg-flashWhite dark:bg-metalBlack">
-            <div className="text-sm font-medium text-black dark:text-white">
-              Skills
-            </div>
+            <div className="text-sm font-medium text-black ">Skills</div>
             <div className="flex items-center justify-between my-4 space-x-4 skills_circle">
               <div className="space-y-2 text-center progressCircle">
                 <div className="relative w-12 h-12 circle" data-percent={90}>
@@ -73,7 +65,7 @@ const SideProfile = () => {
                     90%
                   </div>
                 </div>
-                <p className="text-[13px] font-normal dark:font-light text-black dark:text-white/90">
+                <p className="text-[13px] font-normal dark:font-light text-black /90">
                   HTML
                 </p>
               </div>
@@ -83,7 +75,7 @@ const SideProfile = () => {
                     80%
                   </div>
                 </div>
-                <p className="text-[13px] font-normal dark:font-light text-black dark:text-white/90">
+                <p className="text-[13px] font-normal dark:font-light text-black /90">
                   CSS
                 </p>
               </div>
@@ -93,7 +85,7 @@ const SideProfile = () => {
                     80%
                   </div>
                 </div>
-                <p className="text-[13px] font-normal dark:font-light text-black dark:text-white/90">
+                <p className="text-[13px] font-normal dark:font-light text-black /90">
                   JS
                 </p>
               </div>
@@ -103,19 +95,18 @@ const SideProfile = () => {
                     90%
                   </div>
                 </div>
-                <p className="text-[13px] font-normal dark:font-light text-black dark:text-white/90">
+                <p className="text-[13px] font-normal dark:font-light text-black /90">
                   PHP
                 </p>
               </div>
             </div>
             <div className="mt-6">
               <a
-                href="mycv.html"
-                download=""
+                href="https://www.cakeresume.com/s--GoD2R1z_R0Q6Wf06JYZcsA--/reza-54d551"
                 target="_blank"
                 className="text-center text-sm border border-theme bg-theme flex items-center justify-center gap-2 text-white rounded-4xl py-3.5 transition duration-300 text-[15px] font-semibold hover:bg-themeHover hover:border-themeHover"
               >
-                DOWNLOAD CV
+                Preview CV
                 <span className="animate-bounce">
                   <svg
                     width={18}
