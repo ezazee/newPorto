@@ -16,12 +16,12 @@ const Skills = () => {
         className="py-5 xl:py-3.5 max-w-content xl:max-2xl:max-w-50rem max-xl:mx-auto xl:ml-auto"
       >
         <div className="relative px-5 py-8 md:p-8 bg-white dark:bg-nightBlack rounded-2xl service-section lg:p-10 2xl:p-13">
-          <div className="inline-flex items-center gap-2 px-4 py-2 text-xs tracking-wide text-black dark:text-white border lg:px-5 section-name border-platinum dark:border-greyBlack200 rounded-4xl">
+          <div className="inline-flex items-center gap-2 px-4 py-2 text-xs tracking-wide text-black border lg:px-5 section-name border-platinum dark:border-greyBlack200 rounded-4xl">
             <FontAwesomeIcon className="text-theme" icon={faPenRuler} />
             SKILLS
           </div>
           <div className="mb-8 mt-7 md:my-10 section-title">
-            <h2 className="title text-[32px] md:text-4xl lg:text-5xl font-extralight text-black dark:text-white leading-1.27">
+            <h2 className="title text-[32px] md:text-4xl lg:text-5xl font-extralight text-black leading-1.27">
               My <span className="font-semibold text-theme">Tools</span>
             </h2>
             <p className="max-w-xl mt-4 md:mt-6 subtitle">
@@ -53,7 +53,7 @@ const Skills = () => {
                           alt="Figma"
                         />
                       </div>
-                      <div className="text-black dark:text-white name">
+                      <div className="text-black name">
                         Figma
                       </div>
                     </div>
@@ -68,7 +68,7 @@ const Skills = () => {
                           alt="HTML"
                         />
                       </div>
-                      <div className="text-black dark:text-white name">
+                      <div className="text-black name">
                         HTML
                       </div>
                     </div>
@@ -83,7 +83,7 @@ const Skills = () => {
                           alt="CSS"
                         />
                       </div>
-                      <div className="text-black dark:text-white name">CSS</div>
+                      <div className="text-black name">CSS</div>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
@@ -96,7 +96,7 @@ const Skills = () => {
                           alt="JS"
                         />
                       </div>
-                      <div className="text-black dark:text-white name">JS</div>
+                      <div className="text-black name">JS</div>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
@@ -109,7 +109,7 @@ const Skills = () => {
                           alt="Tailwind"
                         />
                       </div>
-                      <div className="text-black dark:text-white name">
+                      <div className="text-black name">
                         Tailwind
                       </div>
                     </div>
@@ -124,7 +124,7 @@ const Skills = () => {
                           alt="React"
                         />
                       </div>
-                      <div className="text-black dark:text-white name">
+                      <div className="text-black name">
                         React
                       </div>
                     </div>
@@ -139,7 +139,7 @@ const Skills = () => {
                           alt="Adobe PS"
                         />
                       </div>
-                      <div className="text-black dark:text-white name">
+                      <div className="text-black name">
                         Adobe PS
                       </div>
                     </div>
@@ -154,7 +154,7 @@ const Skills = () => {
                           alt="CorelDraw"
                         />
                       </div>
-                      <div className="text-black dark:text-white name">
+                      <div className="text-black name">
                         CorelDraw
                       </div>
                     </div>
@@ -165,11 +165,11 @@ const Skills = () => {
                         <Image
                           width={50}
                           height={50}
-                          src="/img/skill/Laravel.svg"
+                          src="/img/skill/laravel.svg"
                           alt="Laravel"
                         />
                       </div>
-                      <div className="text-black dark:text-white name">
+                      <div className="text-black name">
                         Laravel
                       </div>
                     </div>
