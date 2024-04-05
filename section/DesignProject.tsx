@@ -1,10 +1,10 @@
+import CardDesign from '@/components/cardDesign';
 import { faBezierCurve } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Image from 'next/image';
 import React from 'react'
 
 
-const DesignProject = () => {
+const DesignProject: React.FC = () => {
   return (
     <>
       <div
@@ -29,165 +29,12 @@ const DesignProject = () => {
           </div>
           {/*./section-title*/}
           <div className="portfolio_wrapper grid sm:grid-cols-2 gap-4 lg:gap-7.5">
-            {/*./portfolio-card*/}
-            <div className="relative item md:col-span-1 z-1 group">
-              <a
-                className="flex items-center justify-center p-3 overflow-hidden border md:p-4 rounded-xl border-platinum border-greyBlack"
-                href="project-single.html"
-              >
-                <div className="img-wrapper">
-                  <Image
-                    width={600}
-                    height={600}
-                    src="/img/design/1.webp"
-                    className="rounded-lg max-md:min-h-[17rem] max-md:w-full max-md:object-cover max-md:object-center transition-all duration-300 group-hover:blur-xs"
-                    alt="portfolio"
-                  />
-                  <div className="absolute inset-0 transition-all duration-300 opacity-0 overlay bg-gradient-to-t from-white to-transparent rounded-xl group-hover:opacity-100"></div>
-                </div>
-                <div className="info text-center position-center max-lg:text-3xl text-lead font-semibold text-black  leading-1.15 transition duration-500 scale-110 opacity-0 group-hover:scale-100 group-hover:opacity-100 relative z-10">
-                  Design
-                  <span>Specialization</span>
-                </div>
-              </a>
-            </div>
-            {/*./portfolio-card*/}
-            <div className="relative item md:col-span-1 z-1 group">
-              <a
-                className="flex items-center justify-center p-3 overflow-hidden border md:p-4 rounded-xl border-platinum border-greyBlack"
-                href="project-single.html"
-              >
-                <div className="img-wrapper">
-                  <Image
-                    width={600}
-                    height={600}
-                    src="/img/design/2.webp"
-                    className="rounded-lg max-md:min-h-[17rem] max-md:w-full max-md:object-cover max-md:object-center transition-all duration-300 group-hover:blur-xs"
-                    alt="portfolio"
-                  />
-                  <div className="absolute inset-0 transition-all duration-300 opacity-0 overlay bg-gradient-to-t from-white to-transparent rounded-xl group-hover:opacity-100"></div>
-                </div>
-                <div className="info text-center position-center max-lg:text-3xl text-lead font-semibold text-black  leading-1.15 transition duration-500 scale-110 opacity-0 group-hover:scale-100 group-hover:opacity-100 relative z-10">
-                  Design
-                  <span>Specialization</span>
-                </div>
-              </a>
-            </div>
-            {/*./portfolio-card*/}
-            <div className="relative item md:col-span-1 z-1 group">
-              <a
-                className="flex items-center justify-center p-3 overflow-hidden border md:p-4 rounded-xl border-platinum border-greyBlack"
-                href="project-single.html"
-              >
-                <div className="img-wrapper">
-                  <Image
-                    width={600}
-                    height={600}
-                    src="/img/design/3.webp"
-                    className="rounded-lg max-md:min-h-[17rem] max-md:w-full max-md:object-cover max-md:object-center transition-all duration-300 group-hover:blur-xs"
-                    alt="portfolio"
-                  />
-                  <div className="absolute inset-0 transition-all duration-300 opacity-0 overlay bg-gradient-to-t from-white to-transparent rounded-xl group-hover:opacity-100"></div>
-                </div>
-                <div className="info text-center position-center max-lg:text-3xl text-lead font-semibold text-black  leading-1.15 transition duration-500 scale-110 opacity-0 group-hover:scale-100 group-hover:opacity-100 relative z-10">
-                  Design
-                  <span>Specialization</span>
-                </div>
-              </a>
-            </div>
-            {/*./portfolio-card*/}
-            <div className="relative item md:col-span-1 z-1 group">
-              <a
-                className="flex items-center justify-center p-3 overflow-hidden border md:p-4 rounded-xl border-platinum border-greyBlack"
-                href="project-single.html"
-              >
-                <div className="img-wrapper">
-                  <Image
-                    width={600}
-                    height={600}
-                    src="/img/design/4.webp"
-                    className="rounded-lg max-md:min-h-[17rem] max-md:w-full max-md:object-cover max-md:object-center transition-all duration-300 group-hover:blur-xs"
-                    alt="portfolio"
-                  />
-                  <div className="absolute inset-0 transition-all duration-300 opacity-0 overlay bg-gradient-to-t from-white to-transparent rounded-xl group-hover:opacity-100"></div>
-                </div>
-                <div className="info text-center position-center max-lg:text-3xl text-lead font-semibold text-black  leading-1.15 transition duration-500 scale-110 opacity-0 group-hover:scale-100 group-hover:opacity-100 relative z-10">
-                  Design
-                  <span>Specialization</span>
-                </div>
-              </a>
-            </div>
-            {/*./portfolio-card*/}
-            <div className="relative item md:col-span-1 z-1 group">
-              <a
-                className="flex items-center justify-center p-3 overflow-hidden border md:p-4 rounded-xl border-platinum border-greyBlack"
-                href="project-single.html"
-              >
-                <div className="img-wrapper">
-                  <Image
-                    width={600}
-                    height={600}
-                    src="/img/design/5.webp"
-                    className="rounded-lg max-md:min-h-[17rem] max-md:w-full max-md:object-cover max-md:object-center transition-all duration-300 group-hover:blur-xs"
-                    alt="portfolio"
-                  />
-                  <div className="absolute inset-0 transition-all duration-300 opacity-0 overlay bg-gradient-to-t from-white to-transparent rounded-xl group-hover:opacity-100"></div>
-                </div>
-                <div className="info text-center position-center max-lg:text-3xl text-lead font-semibold text-black  leading-1.15 transition duration-500 scale-110 opacity-0 group-hover:scale-100 group-hover:opacity-100 relative z-10">
-                  Design
-                  <span>Specialization</span>
-                </div>
-              </a>
-            </div>
-            {/*./portfolio-card*/}
-            <div className="relative item md:col-span-1 z-1 group">
-              <a
-                className="flex items-center justify-center p-3 overflow-hidden border md:p-4 rounded-xl border-platinum border-greyBlack"
-                href="project-single.html"
-              >
-                <div className="img-wrapper">
-                  <Image
-                    width={600}
-                    height={600}
-                    src="/img/design/7.webp"
-                    className="rounded-lg max-md:min-h-[17rem] max-md:w-full max-md:object-cover max-md:object-center transition-all duration-300 group-hover:blur-xs"
-                    alt="portfolio"
-                  />
-                  <div className="absolute inset-0 transition-all duration-300 opacity-0 overlay bg-gradient-to-t from-white to-transparent rounded-xl group-hover:opacity-100"></div>
-                </div>
-                <div className="info text-center position-center max-lg:text-3xl text-lead font-semibold text-black  leading-1.15 transition duration-500 scale-110 opacity-0 group-hover:scale-100 group-hover:opacity-100 relative z-10">
-                  Design
-                  <span>Specialization</span>
-                </div>
-              </a>
-            </div>
-            {/*./portfolio-card*/}
-            <div className="relative item md:col-span-2 z-1 group">
-              <a
-                className="flex items-center justify-center p-3 overflow-hidden border md:p-4 rounded-xl border-platinum border-greyBlack"
-                href="project-single.html"
-              >
-                <div className="img-wrapper">
-                  <Image
-                    width={900}
-                    height={900}
-                    src="/img/design/6.webp"
-                    className="rounded-lg max-md:min-h-[17rem] max-md:w-full max-md:object-cover max-md:object-center transition-all duration-300 group-hover:blur-xs"
-                    alt="portfolio"
-                  />
-                  <div className="absolute inset-0 transition-all duration-300 opacity-0 overlay bg-gradient-to-t from-white to-transparent rounded-xl group-hover:opacity-100"></div>
-                </div>
-                <div className="info text-center position-center max-lg:text-3xl text-lead font-semibold text-black leading-1.15 transition duration-500 scale-110 opacity-0 group-hover:scale-100 group-hover:opacity-100 relative z-10">
-                  Design
-                  <span>Specialization</span>
-                </div>
-              </a>
-            </div>
+            <CardDesign />
           </div>
         </div>
       </div>
     </>
   );
-}
+};
 
 export default DesignProject
