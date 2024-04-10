@@ -1,19 +1,18 @@
+import Link from 'next/link';
 import React from 'react'
 import Data from "../data.json";
 import { ProjectsData } from "../type";
-import Link from "next/link";
 import Image from 'next/image';
 
 const projectsData: ProjectsData = Data;
 
-const CardDesign = () => {
+
+const CardCode = () => {
   return (
     <>
-      {projectsData.designProjects.map((project) => (
-        // eslint-disable-next-line react/jsx-key
-        <div className="relative item md:col-span-1 z-1 group">
-          <Link
-            key={project.id}
+      {projectsData.codeProjects.map((project) => (
+        <div key={project.id} className="relative item md:col-span-1 z-1 group">
+          <a
             className="flex items-center justify-center p-3 overflow-hidden border md:p-4 rounded-xl border-platinum border-greyBlack"
             href="/"
           >
@@ -29,14 +28,14 @@ const CardDesign = () => {
             </div>
             <div className="info text-center position-center max-lg:text-3xl text-lead font-semibold text-black  leading-1.15 transition duration-500 scale-110 opacity-0 group-hover:scale-100 group-hover:opacity-100 relative z-10">
               {project.title}
-              {"  "}
-              <span>Design</span>
+              {"   "}
+              <span>Project</span>
             </div>
-          </Link>
+          </a>
         </div>
       ))}
     </>
   );
-};
+}
 
-export default CardDesign;
+export default CardCode

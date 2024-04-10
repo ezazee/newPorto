@@ -6,6 +6,7 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.css";
 import { Autoplay } from "swiper/modules";
+import Link from "next/link";
 
 
 
@@ -25,8 +26,9 @@ const Hero = () => {
           <div className="items-center gap-6 hero-content md:flex xl:gap-10">
             <div className="text-content pt-7 lg:pt-8 max-lg:max-w-[30rem]">
               <h1 className="text-[32px] lg:text-5xl xl:text-4xl 2xl:text-5xl font-semibold text-black leading-1.27 lg:leading-1.27 xl:leading-1.27 2xl:leading-1.27 mb-4 lg:mb-5">
-                I Craft The <br />
-                <span className="text-theme">Digital Landscape</span>
+                Turning Dreams Into Reality
+                <br />
+                <span className="text-theme">With Code And Design</span>
               </h1>
               <p>
                 I am a{" "}
@@ -42,25 +44,26 @@ const Hero = () => {
                     icon={faCheckDouble}
                     className="mr-2 text-theme"
                   />
-                  Available for work
+                  Available For Project
                 </li>
                 <li className="flex items-center mx-3 text-regular">
                   <FontAwesomeIcon
                     icon={faCheckDouble}
                     className="mr-2 text-theme"
                   />
-                  Full Time Job
+                  Freelance Job
                 </li>
               </ul>
               <ul className="mt-7 buttons">
                 <li data-scroll-nav={8}>
-                  <a
-                    href="#contact"
+                  <Link
+                    href="https://wa.me/6281313711180"
+                    target="_blank"
                     className="btn-theme inline-flex items-center gap-2 bg-theme text-power__black py-4 md:py-4.5 lg:px-9 px-7 rounded-4xl leading-none transition-all duration-300 hover:shadow-theme_shadow text-white font-medium text-[15px] md:text-base"
                   >
                     <FontAwesomeIcon icon={faPaperPlane} />
                     HIRE ME
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

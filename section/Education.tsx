@@ -21,8 +21,8 @@ const Education = () => {
               My <span className="font-semibold text-theme">Education</span>
             </h2>
             <p className="max-w-xl mt-4 md:mt-6 subtitle">
-              I design products that are more than pretty. I make them shippable
-              and usable, tempor non mollit dolor et do aute
+              My educational attainment throughout my life and several course
+              certificates related to what I do
             </p>
           </div>
           {/*./section-title*/}
@@ -84,9 +84,7 @@ const Education = () => {
             <div className="portfolio_wrapper grid sm:grid-cols-2 gap-4 lg:gap-7.5">
               {/*./portfolio-card*/}
               <div className="relative item md:col-span-1 z-1 group">
-                <div
-                  className="flex items-center justify-center p-3 overflow-hidden border md:p-4 rounded-xl border-platinum dark:border-greyBlack"
-                >
+                <div className="flex items-center justify-center p-3 overflow-hidden border md:p-4 rounded-xl border-platinum dark:border-greyBlack">
                   <div className="img-wrapper">
                     <Image
                       width={400}
@@ -105,9 +103,7 @@ const Education = () => {
               </div>
               {/*./portfolio-card*/}
               <div className="relative item md:col-span-1 z-1 group">
-                <div
-                  className="flex items-center justify-center p-3 overflow-hidden border md:p-4 rounded-xl border-platinum dark:border-greyBlack"
-                >
+                <div className="flex items-center justify-center p-3 overflow-hidden border md:p-4 rounded-xl border-platinum dark:border-greyBlack">
                   <div className="img-wrapper">
                     <Image
                       width={400}
@@ -126,9 +122,7 @@ const Education = () => {
               </div>
               {/*./portfolio-card*/}
               <div className="relative item md:col-span-1 z-1 group">
-                <div
-                  className="flex items-center justify-center p-3 overflow-hidden border md:p-4 rounded-xl border-platinum dark:border-greyBlack"
-                >
+                <div className="flex items-center justify-center p-3 overflow-hidden border md:p-4 rounded-xl border-platinum dark:border-greyBlack">
                   <div className="img-wrapper">
                     <Image
                       width={400}
@@ -147,9 +141,7 @@ const Education = () => {
               </div>
               {/*./portfolio-card*/}
               <div className="relative item md:col-span-1 z-1 group">
-                <div
-                  className="flex items-center justify-center p-3 overflow-hidden border md:p-4 rounded-xl border-platinum dark:border-greyBlack"
-                >
+                <div className="flex items-center justify-center p-3 overflow-hidden border md:p-4 rounded-xl border-platinum dark:border-greyBlack">
                   <div className="img-wrapper">
                     <Image
                       width={400}
@@ -168,9 +160,7 @@ const Education = () => {
               </div>
               {/*./portfolio-card*/}
               <div className="relative item md:col-span-2 z-1 group">
-                <a
-                  className="flex items-center justify-center p-3 overflow-hidden border md:p-4 rounded-xl border-platinum dark:border-greyBlack"
-                >
+                <a className="flex items-center justify-center p-3 overflow-hidden border md:p-4 rounded-xl border-platinum dark:border-greyBlack">
                   <div className="img-wrapper">
                     <Image
                       width={550}

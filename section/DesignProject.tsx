@@ -20,11 +20,11 @@ const DesignProject: React.FC = () => {
           <div className="mt-5 mb-8 md:my-10 section-title">
             <h2 className="title text-[32px] md:text-4xl lg:text-5xl font-extralight text-black leading-1.27">
               Featured{" "}
-              <span className="font-semibold text-theme">Projects Design</span>
+              <span className="font-semibold text-theme">Design Projects</span>
             </h2>
             <p className="max-w-xl mt-4 md:mt-6 subtitle">
-              I design products that are more than pretty. I make them shippable
-              and usable, ttempor non mollit dolor et do aute
+              Some of my featured project codes are for UI & UX and basic design
+              projects that I have worked on
             </p>
           </div>
           {/*./section-title*/}

@@ -1,4 +1,7 @@
+import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react'
 
 const SideProfile = () => {
@@ -39,66 +42,56 @@ const SideProfile = () => {
             </div>
           </div>
           <div className="pt-6 mx-4 border-t lg:mx-6 user-meta-info md:mx-7 my-7 border-platinum dark:border-metalBlack">
-            <ul className="space-y-3">
-              <li className="flex text-sm">
-                <span className="flex-1 font-medium text-black ">Email:</span>
-                <span>yukiirima123@gmail.com</span>
-              </li>
-              <li className="flex text-sm">
-                <span className="flex-1 font-medium text-black ">Github:</span>
-                <span>Ezazee</span>
-              </li>
-              <li className="flex text-sm">
-                <span className="flex-1 font-medium text-black ">
-                  Instagram:
-                </span>
-                <span>mrzsaa</span>
-              </li>
-            </ul>
+            <p>
+              Hi!, Im Reza ... As a Web Developer, I want to change my future
+              with technology that is developing very fast
+            </p>
           </div>
           <div className="px-4 py-5 lg:py-6 lg:px-6 rounded-2xl md:px-8 bg-flashWhite dark:bg-metalBlack">
             <div className="text-sm font-medium text-black ">Skills</div>
             <div className="flex items-center justify-between my-4 space-x-4 skills_circle">
-              <div className="space-y-2 text-center progressCircle">
-                <div className="relative w-12 h-12 circle" data-percent={90}>
+              <div className="space-y-2 text-centerCircle">
+                <div className="relative w-12 h-12 " data-percent={90}>
                   <div className="absolute inset-0 text-[13px] font-medium label flex-center">
-                    90%
+                    <Link
+                      target="_blank"
+                      href="https://www.linkedin.com/in/mohamad-reza-65879b220/"
+                    >
+                      <FontAwesomeIcon className="text-2xl" icon={faLinkedin} />
+                    </Link>
                   </div>
                 </div>
                 <p className="text-[13px] font-normal dark:font-light text-black /90">
-                  HTML
+                  LinkedIn
                 </p>
               </div>
-              <div className="space-y-2 text-center progressCircle">
-                <div className="relative w-12 h-12 circle" data-percent={80}>
-                  <div className="absolute inset-0 text-[13px] font-medium label flex-center">
-                    80%
-                  </div>
+              <div className="space-y-2 text-center">
+                <div className="relative w-12 h-12 " data-percent={80}>
+                  <Link
+                    target="_blank"
+                    href="https://www.instagram.com/mrzsaa/?hl=id/"
+                  >
+                    <FontAwesomeIcon className="text-2xl" icon={faInstagram} />
+                  </Link>
                 </div>
                 <p className="text-[13px] font-normal dark:font-light text-black /90">
-                  CSS
+                  Instagram
                 </p>
               </div>
-              <div className="space-y-2 text-center progressCircle">
-                <div className="relative w-12 h-12 circle" data-percent={80}>
-                  <div className="absolute inset-0 text-[13px] font-medium label flex-center">
-                    80%
-                  </div>
+              <div className="space-y-2 text-center">
+                <div className="relative w-12 h-12 " data-percent={80}>
+                  <Link
+                    target="_blank"
+                    href="https://www.instagram.com/mrzsaa/?hl=id/"
+                  >
+                    <FontAwesomeIcon className="text-2xl" icon={faGithub} />
+                  </Link>
                 </div>
                 <p className="text-[13px] font-normal dark:font-light text-black /90">
-                  JS
+                  Github
                 </p>
               </div>
-              <div className="space-y-2 text-center progressCircle">
-                <div className="relative w-12 h-12 circle" data-percent={90}>
-                  <div className="absolute inset-0 text-[13px] font-medium label flex-center">
-                    90%
-                  </div>
-                </div>
-                <p className="text-[13px] font-normal dark:font-light text-black /90">
-                  PHP
-                </p>
-              </div>
+
             </div>
             <div className="mt-6">
               <a

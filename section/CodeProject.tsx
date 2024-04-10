@@ -4,6 +4,8 @@ import { faCode } from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image";
 import Data from "../data.json";
 import { ProjectsData } from "../type";
+import CardCode from "@/components/CardCode";
+import Link from "next/link";
 
 const projectsData: ProjectsData = Data;
 
@@ -24,50 +26,25 @@ const CodeProject: React.FC = () => {
           <div className="mt-5 mb-8 md:my-10 section-title">
             <h2 className="title text-[32px] md:text-4xl lg:text-5xl font-extralight text-black leading-1.27">
               Featured{" "}
-              <span className="font-semibold text-theme">Projects</span>
+              <span className="font-semibold text-theme">Code Projects</span>
             </h2>
             <p className="max-w-xl mt-4 md:mt-6 subtitle">
-              I design products that are more than pretty. I make them shippable
-              and usable, ttempor non mollit dolor et do aute
+              Some of my superior project codes that I have worked on at several
+              previous companies
             </p>
           </div>
           {/*./section-title*/}
           <div className="portfolio_wrapper grid sm:grid-cols-2 gap-4 lg:gap-7.5">
-            {projectsData.codeProjects.map((project) => (
-              <div
-                key={project.id}
-                className="relative item md:col-span-1 z-1 group"
-              >
-                <a
-                  className="flex items-center justify-center p-3 overflow-hidden border md:p-4 rounded-xl border-platinum border-greyBlack"
-                  href="/"
-                >
-                  <div className="img-wrapper">
-                    <Image
-                      width={600}
-                      height={600}
-                      src={project.image}
-                      className="rounded-lg max-md:min-h-[17rem] max-md:w-full max-md:object-cover max-md:object-center transition-all duration-300 group-hover:blur-xs"
-                      alt={project.title}
-                    />
-                    <div className="absolute inset-0 transition-all duration-300 opacity-0 overlay bg-gradient-to-t from-white to-transparent rounded-xl group-hover:opacity-100"></div>
-                  </div>
-                  <div className="info text-center position-center max-lg:text-3xl text-lead font-semibold text-black  leading-1.15 transition duration-500 scale-110 opacity-0 group-hover:scale-100 group-hover:opacity-100 relative z-10">
-                    {project.title}
-                    {"   "}
-                    <span>Project</span>
-                  </div>
-                </a>
-              </div>
-            ))}
+            <CardCode />
           </div>
           <div className="mt-10 text-center more-blogs md:mt-13">
-            <a
-              href="#"
+            <Link
+              href="https://github.com/ezazee"
               className="inline-flex items-center gap-2 text-[15px] font-medium border border-theme bg-theme text-white py-4.5 px-9 rounded-4xl leading-none transition-all duration-300 hover:bg-themeHover hover:border-themeHover"
+              target="_blank"
             >
               Browse My Github
-            </a>
+            </Link>
           </div>
         </div>
       </div>

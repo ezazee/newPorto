@@ -25,8 +25,8 @@ const Skills = () => {
               My <span className="font-semibold text-theme">Tools</span>
             </h2>
             <p className="max-w-xl mt-4 md:mt-6 subtitle">
-              I do website design and development. also make it shippable and
-              usable using my best tools
+              I do website design and development. And i have created great products
+              using my best tools
             </p>
           </div>
           <div className="mt-12 skills-slider xl:mt-16">
@@ -53,9 +53,7 @@ const Skills = () => {
                           alt="Figma"
                         />
                       </div>
-                      <div className="text-black name">
-                        Figma
-                      </div>
+                      <div className="text-black name">Figma</div>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
@@ -68,9 +66,7 @@ const Skills = () => {
                           alt="HTML"
                         />
                       </div>
-                      <div className="text-black name">
-                        HTML
-                      </div>
+                      <div className="text-black name">HTML</div>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
@@ -109,9 +105,7 @@ const Skills = () => {
                           alt="Tailwind"
                         />
                       </div>
-                      <div className="text-black name">
-                        Tailwind
-                      </div>
+                      <div className="text-black name">Tailwind</div>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
@@ -124,9 +118,7 @@ const Skills = () => {
                           alt="React"
                         />
                       </div>
-                      <div className="text-black name">
-                        React
-                      </div>
+                      <div className="text-black name">React</div>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
@@ -139,9 +131,7 @@ const Skills = () => {
                           alt="Adobe PS"
                         />
                       </div>
-                      <div className="text-black name">
-                        Adobe PS
-                      </div>
+                      <div className="text-black name">Adobe PS</div>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
@@ -154,9 +144,7 @@ const Skills = () => {
                           alt="CorelDraw"
                         />
                       </div>
-                      <div className="text-black name">
-                        CorelDraw
-                      </div>
+                      <div className="text-black name">CorelDraw</div>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
@@ -169,9 +157,7 @@ const Skills = () => {
                           alt="Laravel"
                         />
                       </div>
-                      <div className="text-black name">
-                        Laravel
-                      </div>
+                      <div className="text-black name">Laravel</div>
                     </div>
                   </SwiperSlide>
                   {/* Add more SwiperSlides for other skills */}

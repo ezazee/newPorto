@@ -21,8 +21,8 @@ const Experience = () => {
               Work <span className="font-semibold text-theme">Experience</span>
             </h2>
             <p className="max-w-xl mt-4 md:mt-6 subtitle">
-              I design products that are more than pretty. I make them shippable
-              and usable, tempor non mollit dolor et do aute
+              some of my experiences in working in companies from the start of
+              my work
             </p>
           </div>
           {/*./section-title*/}
