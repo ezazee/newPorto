@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./main.css";
+import { Analytics } from "@vercel/analytics/react";
 import Preloader from "@/components/Preloader";
 import CustomCursor from "@/components/CustomCursor";
 import { config } from "@fortawesome/fontawesome-svg-core";
@@ -37,6 +38,7 @@ export default function RootLayout({
         <SideNav />
         <Background />
         {children}
+        <Analytics />
       </body>
     </html>
   );
