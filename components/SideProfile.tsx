@@ -37,7 +37,7 @@ const SideProfile = () => {
             </h6>
             <div className="leading-none cd-headline clip is-full-width">
               <h6 className="text-sm cd-words-wrapper designation text-theme after:!bg-theme">
-                <b className="font-normal">Web Designer</b>
+                <b className="font-normal">Front-End Developer</b>
               </h6>
             </div>
           </div>
