@@ -9,13 +9,13 @@ const projectsData: ProjectsData = Data;
 const CardDesign = () => {
   return (
     <>
-      {projectsData.designProjects.map((project) => (
+      {projectsData.designProjects.find((project) => (
         // eslint-disable-next-line react/jsx-key
         <div className="relative item md:col-span-1 z-1 group">
           <Link
             key={project.id}
             className="flex items-center justify-center p-3 overflow-hidden border md:p-4 rounded-xl border-platinum border-greyBlack"
-            href="/"
+            href={`/detailsDesign/${project.id}`}
           >
             <div className="img-wrapper">
               <Image
