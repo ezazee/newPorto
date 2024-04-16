@@ -5,6 +5,8 @@ export interface Project {
   image: string;
   embedCode?: string;
   slug?: string;
+  category?: string;
+  client? : string;
 }
 
 export interface ProjectsData {

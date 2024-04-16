@@ -33,6 +33,25 @@ const CodeProject: React.FC = () => {
               previous companies
             </p>
           </div>
+          <div className="mt-6 mb-8">
+            <div className="text-center text-sm flex items-center justify-center gap-2 text-black rounded-4xl py-3.5 transition duration-300 text-[15px] font-semibold">
+              Click to View Project Details
+              <span className="animate-bounce">
+                <svg
+                  width={18}
+                  height={18}
+                  viewBox="0 0 384 512"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0 192H176V0H160C71.6 0 0 71.6 0 160v32zm0 32V352c0 88.4 71.6 160 160 160h64c88.4 0 160-71.6 160-160V224H192 0zm384-32V160C384 71.6 312.4 0 224 0H208V192H384z"
+                    fill="black"
+                  />
+                </svg>
+              </span>
+            </div>
+          </div>
           {/*./section-title*/}
           <div className="portfolio_wrapper grid sm:grid-cols-2 gap-4 lg:gap-7.5">
             <CardCode />

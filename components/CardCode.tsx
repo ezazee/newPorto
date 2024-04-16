@@ -14,7 +14,7 @@ const CardCode = () => {
         <div key={project.id} className="relative item md:col-span-1 z-1 group">
           <a
             className="flex items-center justify-center p-3 overflow-hidden border md:p-4 rounded-xl border-platinum border-greyBlack"
-            href="/"
+            href={`/detailsCode/${project.id}`}
           >
             <div className="img-wrapper">
               <Image

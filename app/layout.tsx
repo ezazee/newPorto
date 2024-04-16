@@ -8,6 +8,7 @@ import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import SideNav from "@/components/SideNav";
 import Background from "@/components/Background";
+import SideProfile from "@/components/SideProfile";
 config.autoAddCss = false;
 
 const poppins = Poppins({
@@ -35,6 +36,7 @@ export default function RootLayout({
       <body className={`${poppins.className} ${additionalClass}`}>
         <CustomCursor />
         <Preloader />
+        <SideProfile />
         <SideNav />
         <Background />
         {children}
