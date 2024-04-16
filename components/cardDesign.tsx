@@ -9,7 +9,7 @@ const projectsData: ProjectsData = Data;
 const CardDesign = () => {
   return (
     <>
-      {projectsData.designProjects.find((project) => (
+      {projectsData.designProjects.map((project) => (
         // eslint-disable-next-line react/jsx-key
         <div className="relative item md:col-span-1 z-1 group">
           <Link

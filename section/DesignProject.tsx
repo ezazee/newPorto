@@ -1,4 +1,4 @@
-import CardDesign from '@/components/cardDesign';
+import CardDesign from '@/components/CardDesign';
 import { faBezierCurve } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react'
