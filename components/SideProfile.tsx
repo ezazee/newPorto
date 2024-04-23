@@ -12,7 +12,7 @@ const SideProfile = () => {
           <div className="mx-4 mt-12 text-center user-info lg:mx-6">
             <a
               className="w-36 h-36 mb-2.5 block mx-auto border-6 border-platinum dark:border-[#2f2f2f] overflow-hidden rounded-full"
-              href="index.html"
+              href="/"
             >
               <Image
                 loading="lazy"

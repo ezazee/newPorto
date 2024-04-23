@@ -35,7 +35,7 @@ const SideNav = () => {
       <div className="minfo__nav__wrapper bg-snowWhite dark:bg-power__black max-xl:hidden fixed top-1/2 -translate-y-1/2 right-4 2xl:right-14 z-999 flex items-center flex-col gap-4 border border-platinum dark:border-metalBlack rounded-4xl px-2.5 py-4">
         {/* Site Logo Start */}
         <div className="flex border rounded-full logo w-15 h-15 border-platinum dark:border-metalBlack flex-center">
-          <a href="index.html">
+          <a href="/">
             <h1 className="text-2xl text-theme">R</h1>
           </a>
         </div>
