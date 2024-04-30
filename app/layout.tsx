@@ -18,8 +18,7 @@ const poppins = Poppins({
   weight: "500",
 });
 
-  const additionalClass = "relative custom_cursor";
-
+const additionalClass = "relative custom_cursor";
 
 export const metadata: Metadata = {
   title: "Zaportfolio",
@@ -34,6 +33,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <HotjarScript />
+      </head>
       <body className={`${poppins.className} ${additionalClass}`}>
         <CustomCursor />
         <Preloader />
@@ -41,7 +43,6 @@ export default function RootLayout({
         <SideNav />
         <Background />
         {children}
-        <HotjarScript />
         <Analytics />
       </body>
     </html>
