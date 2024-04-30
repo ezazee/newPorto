@@ -9,6 +9,7 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 import SideNav from "@/components/SideNav";
 import Background from "@/components/Background";
 import SideProfile from "@/components/SideProfile";
+import HotjarScript from "@/components/HotjarScript";
 config.autoAddCss = false;
 
 const poppins = Poppins({
@@ -40,6 +41,7 @@ export default function RootLayout({
         <SideNav />
         <Background />
         {children}
+        <HotjarScript />
         <Analytics />
       </body>
     </html>
