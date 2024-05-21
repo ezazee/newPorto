@@ -16,7 +16,10 @@ const SideProfile = () => {
               className="w-36 h-36 mb-2.5 block mx-auto border-6 border-platinum dark:border-[#2f2f2f] overflow-hidden rounded-full"
               href="/"
             >
-              <Rive src="/img/avatar_pack_(use_case).riv" />
+              <Rive
+                src="/img/avatar_pack_(use_case).riv"
+                className="dark:hidden w-full h-full rounded-full"
+              />
               {/*Image for Light Version */}
             </a>
             <h6 className="mb-1 text-lg font-semibold text-black name">
