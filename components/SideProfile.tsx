@@ -1,8 +1,10 @@
+"use client"
 import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react'
+import Rive from '@rive-app/react-canvas';
 
 const SideProfile = () => {
   return (
@@ -14,22 +16,7 @@ const SideProfile = () => {
               className="w-36 h-36 mb-2.5 block mx-auto border-6 border-platinum dark:border-[#2f2f2f] overflow-hidden rounded-full"
               href="/"
             >
-              <Image
-                loading="lazy"
-                src="/img/hero.png"
-                width={150}
-                height={150}
-                className="hidden dark:block w-full h-full rounded-full"
-                alt="Brown Reddick"
-              />{" "}
-              {/*Image for Dark Version */}
-              <Image
-                width={150}
-                height={150}
-                src="/img/hero.png"
-                className="dark:hidden w-full h-full rounded-full"
-                alt="Brown Reddick"
-              />{" "}
+              <Rive src="/img/avatar_pack_(use_case).riv" />
               {/*Image for Light Version */}
             </a>
             <h6 className="mb-1 text-lg font-semibold text-black name">
